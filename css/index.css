@@ -123,7 +123,7 @@ header nav a {
     border-bottom: solid 1px;
     align-content: center;
     font-size: 40px;
-    width: 900px;
+    width: 1000px;
     align-items: center;
     
   }
@@ -247,6 +247,13 @@ header .logo {
   width: 50%;
   padding: 30px;;
 }
+
+@media(max-width: 500px){
+  .main-content .container{
+    display: inline;
+  }
+}
+
 .main-content .top-content {
   padding: 0 10px;
 }
@@ -257,12 +264,27 @@ header .logo {
   margin-right: 34px;
 }
 
+@media(max-width: 500px){
+  .main-content .top-content .text-content {
+    width: 90%;
+    display: block;
+    margin: 30px 30px;
+    font-size: 30px;
+  }
+}
+
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
 
 .main-content .middle-img {
   margin-top: 45px;
+}
+
+@media(max-width: 500px){
+  .main-content .middle-img{
+    margin: 30px 30px 30px 30px;
+  }
 }
 
 .main-content .bottom-content {
@@ -276,6 +298,15 @@ header .logo {
   margin-right: 12px;
 }
 
+@media(max-width: 500px){
+  .main-content .bottom-content .text-content {
+    width: 90%;
+    display: block;
+    margin: 30px 30px;
+    font-size: 30px;
+  }
+}
+
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
 }
@@ -286,6 +317,12 @@ header .logo {
   padding: 39px 10px 0;
 }
 
+@media(max-width: 500px){
+  .contact{
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
 .contact p {
   margin: 20px 0;
 }
